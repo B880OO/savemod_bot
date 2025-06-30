@@ -13,7 +13,7 @@ WEB_SERVER_PORT = int(os.getenv("WEB_SERVER_PORT"))  # Convert to integer
 MAIN_BOT_PATH = os.getenv("MAIN_BOT_PATH")
 OTHER_BOTS_PATH = os.getenv("OTHER_BOTS_PATH")
 OTHER_BOTS_URL = f"{BASE_URL}{OTHER_BOTS_PATH}"
-ADMIN = [2003019116,61444003,6973491393,7218613643,6438938979]
+ADMIN = []
 
 if TOKEN is None:
     raise ValueError("TOKEN is not set in the .env file.")
